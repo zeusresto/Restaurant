@@ -18,7 +18,11 @@ a {
   color: #cda45e;
   text-decoration: none;
 }
+.h11{
 
+  color: white;
+  margin-left: 45%;
+}
 a:hover {
   color: #d9ba85;
   text-decoration: none;
