@@ -510,8 +510,12 @@ h6 {
   font-size: 22px;
 }
 
+#hero .anth { margin-top: 10px;
+  margin-left: 300px;}
+
 #hero .btns {
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-left: 450px;
 }
 
 #hero .btn-menu,
