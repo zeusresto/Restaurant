@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
+  background: #0f0f0f;
   color: #fff;
 }
 
@@ -184,7 +184,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(12, 11, 9, 0.6);
+  background:#660000;
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
@@ -445,7 +445,11 @@ h6 {
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
 }
-
+img {
+  border-radius: 50%;
+  max-width: 20%;
+  max-height: 70%;
+}
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
 }
@@ -926,6 +930,11 @@ section {
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
+
+
+
+
+
 .menu #menu-flters {
   padding: 0;
   margin: 0 auto 0 auto;
@@ -941,7 +950,7 @@ section {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
-  color: #fff;
+  color:#BF9000;
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
@@ -950,11 +959,17 @@ section {
 
 .menu #menu-flters li:hover,
 .menu #menu-flters li.filter-active {
-  color: #cda45e;
+  color:#BF9000;
 }
 
 .menu #menu-flters li:last-child {
   margin-right: 0;
+}
+
+
+.anthony{
+  border-radius: 1%;
+
 }
 
 .menu .menu-item {
@@ -965,7 +980,7 @@ section {
   width: 70px;
   border-radius: 50%;
   float: left;
-  border: 5px solid rgba(255, 255, 255, 0.2);
+  border: 5px solid #660000;
 }
 
 .menu .menu-content {
@@ -993,7 +1008,7 @@ section {
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: white;
+  color: #BF9000;
   transition: 0.3s;
 }
 
